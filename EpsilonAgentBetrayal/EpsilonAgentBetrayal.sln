@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpsilonAgentBetrayal", "EpsilonAgentBetrayal.csproj", "{84698A31-9320-2760-E62C-D4DD125C45A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpsilonAgentBetrayal.Plugins", "EpsilonAgentBetrayal.Plugins.csproj", "{0C893567-FB32-4339-ABDC-ADC56CD2C684}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpsilonAgentBetrayal.Editor", "EpsilonAgentBetrayal.Editor.csproj", "{0065CEBC-EEB8-5AE0-CE71-FFDF0734C6D8}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{84698A31-9320-2760-E62C-D4DD125C45A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84698A31-9320-2760-E62C-D4DD125C45A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84698A31-9320-2760-E62C-D4DD125C45A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C893567-FB32-4339-ABDC-ADC56CD2C684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C893567-FB32-4339-ABDC-ADC56CD2C684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C893567-FB32-4339-ABDC-ADC56CD2C684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C893567-FB32-4339-ABDC-ADC56CD2C684}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0065CEBC-EEB8-5AE0-CE71-FFDF0734C6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0065CEBC-EEB8-5AE0-CE71-FFDF0734C6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0065CEBC-EEB8-5AE0-CE71-FFDF0734C6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU

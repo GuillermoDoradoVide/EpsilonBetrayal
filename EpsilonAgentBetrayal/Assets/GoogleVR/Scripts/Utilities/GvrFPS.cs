@@ -45,6 +45,8 @@ public class GvrFPS : MonoBehaviour {
     fps = Mathf.Lerp(fps, currentFPS, interp);
     float msf = MS_PER_SEC / fps;
     fpsText = string.Format(DISPLAY_TEXT_FORMAT, msf, fps);
+         GUI.color = textColor;
+    GUI.Label(guiRectLeft, fpsText, guiLabelStyle);
   }
 
   void OnGUI() {
@@ -52,6 +54,7 @@ public class GvrFPS : MonoBehaviour {
       guiLabelStyle = new GUIStyle(GUI.skin.label);
       guiLabelStyle.richText = false;
       guiLabelStyle.fontSize = 32;
+
     }
 
     // Draw FPS text.

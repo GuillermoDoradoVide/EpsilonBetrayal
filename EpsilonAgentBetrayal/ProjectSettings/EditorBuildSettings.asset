@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Content/Scenes/Levels/[Lecciones]/CAPITULO_1/init_NotAStarbuck.unity
+    guid: 26e97c9cdf6d005439a0ac9234989a48
