@@ -135,13 +135,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="EpsilonAgentBetrayal.csproj">
-      <Project>{84698A31-9320-2760-E62C-D4DD125C45A2}</Project>
-      <Name>EpsilonAgentBetrayal</Name>
-    </ProjectReference>
     <ProjectReference Include="EpsilonAgentBetrayal.Plugins.csproj">
       <Project>{0C893567-FB32-4339-ABDC-ADC56CD2C684}</Project>
       <Name>EpsilonAgentBetrayal.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="EpsilonAgentBetrayal.csproj">
+      <Project>{84698A31-9320-2760-E62C-D4DD125C45A2}</Project>
+      <Name>EpsilonAgentBetrayal</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
