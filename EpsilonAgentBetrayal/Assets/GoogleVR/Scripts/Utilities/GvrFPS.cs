@@ -32,7 +32,7 @@ public class GvrFPS : MonoBehaviour {
   private Rect guiRectRight = new Rect(Screen.width / 2 + UI_LABEL_START_X,
       Screen.height - UI_LABEL_START_Y, UI_LABEL_SIZE_X, UI_LABEL_SIZE_Y);
 #endif  // !UNITY_EDITOR
-
+    public Text text;
   private string fpsText;
   private float fps = 60;
 
@@ -45,11 +45,10 @@ public class GvrFPS : MonoBehaviour {
     fps = Mathf.Lerp(fps, currentFPS, interp);
     float msf = MS_PER_SEC / fps;
     fpsText = string.Format(DISPLAY_TEXT_FORMAT, msf, fps);
-         GUI.color = textColor;
-    GUI.Label(guiRectLeft, fpsText, guiLabelStyle);
-  }
+        text.text = fpsText;
+    }
 
-  void OnGUI() {
+    void OnGUI() {
     if (guiLabelStyle == null) {
       guiLabelStyle = new GUIStyle(GUI.skin.label);
       guiLabelStyle.richText = false;
