@@ -135,17 +135,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="EpsilonAgentBetrayal.Plugins.csproj">
-      <Project>{0C893567-FB32-4339-ABDC-ADC56CD2C684}</Project>
-      <Name>EpsilonAgentBetrayal.Plugins</Name>
-    </ProjectReference>
     <ProjectReference Include="EpsilonAgentBetrayal.csproj">
       <Project>{84698A31-9320-2760-E62C-D4DD125C45A2}</Project>
       <Name>EpsilonAgentBetrayal</Name>
     </ProjectReference>
+    <ProjectReference Include="EpsilonAgentBetrayal.Plugins.csproj">
+      <Project>{0C893567-FB32-4339-ABDC-ADC56CD2C684}</Project>
+      <Name>EpsilonAgentBetrayal.Plugins</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\Editor\CustomPropertyReadOnly.cs" />
+    <Compile Include="Assets\Code\Editor\FindMissingScriptsRecursively.cs" />
     <Compile Include="Assets\Code\Editor\ItemAsset.cs" />
     <Compile Include="Assets\Code\Editor\ItemEditor.cs" />
     <Compile Include="Assets\Code\Editor\ScriptableObjectUtility.cs" />
