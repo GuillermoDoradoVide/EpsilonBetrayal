@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Code\Editor\CustomPropertyReadOnly.cs" />
+    <Compile Include="Assets\Code\Editor\find_and_remove_missing_monobehaviour.cs" />
     <Compile Include="Assets\Code\Editor\FindMissingScriptsRecursively.cs" />
     <Compile Include="Assets\Code\Editor\ItemAsset.cs" />
     <Compile Include="Assets\Code\Editor\ItemEditor.cs" />
