@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Content/Scenes/Levels/Laboratory/Laboratory.unity
     guid: 2c4022f77ea642e43ab09c4ec331ef61
-  - enabled: 1
+  - enabled: 0
     path: Assets/Content/Scenes/Levels/[Lecciones]/CAPITULO_1/init_NotAStarbuck.unity
     guid: 26e97c9cdf6d005439a0ac9234989a48
-  - enabled: 0
+  - enabled: 1
     path: Assets/Content/Scenes/Levels/[Lecciones]/CAPITULO_1/Aeropuerto_Pasaportes.unity
     guid: 06d329d7e6fa4514784fd0b0844b9243
   - enabled: 0
