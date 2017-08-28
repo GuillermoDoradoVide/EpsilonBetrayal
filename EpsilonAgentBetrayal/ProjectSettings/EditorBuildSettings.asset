@@ -24,5 +24,8 @@ EditorBuildSettings:
     path: Assets/Content/Scenes/Levels/[Lecciones]/CAPITULO_1/Hotel_reception_A.unity
     guid: 74d434c2494f48b4ab6653e2740dfbbd
   - enabled: 0
+    path: Assets/Content/Scenes/5_6crashtest.unity
+    guid: 9decb4d313d418d41b4cdd210067b969
+  - enabled: 0
     path: Assets/Content/Scenes/Levels/[Lecciones]/CAPITULO_1/init_PrincipalBriefing.unity
     guid: 946de94920f400a4f832f5741589c6ae
